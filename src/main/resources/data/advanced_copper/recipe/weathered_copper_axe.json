@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "advanced_copper:weathered_copper_ingot"
+  },
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "advanced_copper:weathered_copper_axe"
+  }
+}

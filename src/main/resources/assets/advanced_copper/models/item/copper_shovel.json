@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "advanced_copper:item/copper_shovel"
+  }
+}

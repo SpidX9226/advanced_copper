@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "advanced_copper:block/production_furnace_front",
+    "side": "advanced_copper:block/production_furnace_side",
+    "top": "advanced_copper:block/production_furnace_top"
+  }
+}

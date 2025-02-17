@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "advanced_copper:exposed_copper_ingot"
+  },
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "advanced_copper:exposed_copper_sword"
+  }
+}
