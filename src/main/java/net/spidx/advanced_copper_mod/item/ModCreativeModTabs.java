@@ -48,6 +48,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.OXIDIZED_COPPER_AXE.get());
                         output.accept(ModItems.OXIDIZED_COPPER_SHOVEL.get());
                         output.accept(ModItems.OXIDIZED_COPPER_HOE.get());
+
+                        output.accept(ModItems.PRODUCTION_FURNACE.get());
                     })
                     .build());
 

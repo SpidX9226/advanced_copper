@@ -1,10 +1,14 @@
 package net.spidx.advanced_copper_mod.item;
 
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.spidx.advanced_copper_mod.AdvancedCopperMod;
+import net.spidx.advanced_copper_mod.block.ModBlocks;
 import net.spidx.advanced_copper_mod.item.custom.ModToolMaterials;
 
 public class ModItems {
@@ -140,6 +144,7 @@ public class ModItems {
             -3.0f,
             properties
     ));
+    public static final DeferredItem<BlockItem> PRODUCTION_FURNACE = ITEMS.registerSimpleBlockItem("production_furnace",ModBlocks.PRODUCTION_FURNACE_BLOCK, new Item.Properties());
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

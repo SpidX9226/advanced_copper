@@ -23,5 +23,6 @@
   "item.advanced_copper.oxidized_copper_pickaxe": "Oxidized Copper Pickaxe",
   "item.advanced_copper.oxidized_copper_axe": "Oxidized Copper Axe",
   "item.advanced_copper.oxidized_copper_shovel": "Oxidized Copper Shovel",
-  "item.advanced_copper.oxidized_copper_hoe": "Oxidized Copper Hoe"
+  "item.advanced_copper.oxidized_copper_hoe": "Oxidized Copper Hoe",
+  "block.advanced_copper.production_furnace": "Production Furnace"
 }

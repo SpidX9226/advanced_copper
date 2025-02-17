@@ -19,17 +19,6 @@ import net.spidx.advanced_copper_mod.block.custom.ProductionFurnaceBlock;
 public class ModBlocks extends BlockEntityRenderers {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(AdvancedCopperMod.MOD_ID);
 
-    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.register(
-            "example_block", registryName -> new Block(BlockBehaviour.Properties.of()
-                    .setId(ResourceKey.create(Registries.BLOCK, registryName))
-                    .destroyTime(2.0f)
-                    .explosionResistance(12.0f)
-                    .sound(SoundType.ANCIENT_DEBRIS)
-                    .mapColor(MapColor.COLOR_BLUE)
-                    .lightLevel(state -> 12)
-            )
-    );
-
     public static final DeferredBlock<ProductionFurnaceBlock> PRODUCTION_FURNACE_BLOCK = BLOCKS.register(
             "production_furnace", registryName -> new ProductionFurnaceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.BLAST_FURNACE).setId(ResourceKey.create(Registries.BLOCK, registryName)))
     );
