@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ModMaps {
-    public Map<Item, Item> map = new HashMap<>();
+    public static Map<Item, Item> map = new HashMap<>();
 
     public ModMaps() {
         map.put(Items.COPPER_INGOT, ModItems.EXPOSED_COPPER_INGOT.get());
