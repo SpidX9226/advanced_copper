@@ -26,8 +26,10 @@ public class ModEvents {
                 ItemStack itemStack = inventory.getItem(i);
                 int count = itemStack.getCount();
                 float chance = player.getRandom().nextFloat();
+                int currentDamage = inventory.getItem(i).getDamageValue();;
                 if (chance < 0.0004f) {
-                    inventory.setItem(i, new ItemStack(map.getOxidized(itemStack.getItem()), count));
+                    inventory.setItem(i, (new ItemStack(map.getOxidized(itemStack.getItem()), count)));
+                    inventory.getItem(i).setDamageValue(currentDamage);
                 }
             }
         }
