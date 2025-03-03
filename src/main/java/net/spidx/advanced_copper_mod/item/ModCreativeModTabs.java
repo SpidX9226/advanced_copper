@@ -8,6 +8,7 @@ import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.spidx.advanced_copper_mod.AdvancedCopperMod;
+import net.spidx.advanced_copper_mod.block.ModBlocks;
 
 import java.util.function.Supplier;
 
@@ -50,6 +51,21 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.OXIDIZED_COPPER_HOE.get());
 
                         output.accept(ModItems.PRODUCTION_FURNACE.get());
+
+                        output.accept(ModItems.COPPER_BARS.get());
+                        output.accept(ModItems.EXPOSED_COPPER_BARS.get());
+                        output.accept(ModItems.WEATHERED_COPPER_BARS.get());
+                        output.accept(ModItems.OXIDIZED_COPPER_BARS.get());
+
+                        output.accept(ModItems.COPPER_CHAIN.get());
+                        output.accept(ModItems.EXPOSED_COPPER_CHAIN.get());
+                        output.accept(ModItems.WEATHERED_COPPER_CHAIN.get());
+                        output.accept(ModItems.OXIDIZED_COPPER_CHAIN.get());
+
+                        output.accept(ModItems.COPPER_LANTERN.get());
+                        output.accept(ModItems.EXPOSED_COPPER_LANTERN.get());
+                        output.accept(ModItems.WEATHERED_COPPER_LANTERN.get());
+                        output.accept(ModItems.OXIDIZED_COPPER_LANTERN.get());
                     })
                     .build());
 

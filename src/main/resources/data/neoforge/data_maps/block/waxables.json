@@ -1,0 +1,7 @@
+{
+  "values": {
+    "advanced_copper:copper_bars_block": {
+      "waxed": "advanced_copper:production_furnace"
+    }
+  }
+}

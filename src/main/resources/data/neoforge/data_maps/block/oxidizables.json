@@ -1,0 +1,22 @@
+{
+  "values": {
+    "advanced_copper:copper_lantern": {
+      "next_oxidation_stage": "advanced_copper:exposed_copper_lantern"
+    },
+    "advanced_copper:copper_chain": {
+      "next_oxidation_stage": "advanced_copper:exposed_copper_chain"
+    },
+    "advanced_copper:exposed_copper_lantern": {
+      "next_oxidation_stage": "advanced_copper:weathered_copper_lantern"
+    },
+    "advanced_copper:exposed_copper_chain": {
+      "next_oxidation_stage": "advanced_copper:weathered_copper_chain"
+    },
+    "advanced_copper:weathered_copper_lantern": {
+      "next_oxidation_stage": "advanced_copper:oxidized_copper_lantern"
+    },
+    "advanced_copper:weathered_copper_chain": {
+      "next_oxidation_stage": "advanced_copper:oxidized_copper_chain"
+    }
+  }
+}

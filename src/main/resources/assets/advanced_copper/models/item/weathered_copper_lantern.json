@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "advanced_copper:item/weathered_copper_lantern"
+  }
+}

@@ -2,13 +2,15 @@ package net.spidx.advanced_copper_mod;
 
 import net.spidx.advanced_copper_mod.block.ModBlockEntities;
 import net.spidx.advanced_copper_mod.block.ModBlocks;
-import  net.spidx.advanced_copper_mod.item.ModCreativeModTabs;
+import net.spidx.advanced_copper_mod.item.ModCreativeModTabs;
 import net.spidx.advanced_copper_mod.item.ModItems;
 import net.spidx.advanced_copper_mod.util.ModRecipeSerializer;
 import net.spidx.advanced_copper_mod.util.ModRecipeType;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
+
+import net.neoforged.neoforge.registries.datamaps.*;
 
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;

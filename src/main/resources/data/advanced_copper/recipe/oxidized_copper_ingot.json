@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:oxidized_copper"
+  ],
+  "result": {
+    "count": 9,
+    "id": "advanced_copper:oxidized_copper_ingot"
+  }
+}

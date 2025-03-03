@@ -144,7 +144,24 @@ public class ModItems {
             -3.0f,
             properties
     ));
+
+    //BLOCKS ITEMS
     public static final DeferredItem<BlockItem> PRODUCTION_FURNACE = ITEMS.registerSimpleBlockItem("production_furnace",ModBlocks.PRODUCTION_FURNACE_BLOCK, new Item.Properties());
+
+    public static final DeferredItem<BlockItem> COPPER_BARS = ITEMS.registerSimpleBlockItem("copper_bars",ModBlocks.COPPER_BARS_BLOCK, new Item.Properties());
+    public static final DeferredItem<BlockItem> EXPOSED_COPPER_BARS = ITEMS.registerSimpleBlockItem("exposed_copper_bars",ModBlocks.EXPOSED_COPPER_BARS_BLOCK, new Item.Properties());
+    public static final DeferredItem<BlockItem> WEATHERED_COPPER_BARS = ITEMS.registerSimpleBlockItem("weathered_copper_bars",ModBlocks.WEATHERED_COPPER_BARS_BLOCK, new Item.Properties());
+    public static final DeferredItem<BlockItem> OXIDIZED_COPPER_BARS = ITEMS.registerSimpleBlockItem("oxidized_copper_bars",ModBlocks.OXIDIZED_COPPER_BARS_BLOCK, new Item.Properties());
+
+    public static final DeferredItem<BlockItem> COPPER_CHAIN = ITEMS.registerSimpleBlockItem("copper_chain",ModBlocks.COPPER_CHAIN_BLOCK, new Item.Properties());
+    public static final DeferredItem<BlockItem> EXPOSED_COPPER_CHAIN = ITEMS.registerSimpleBlockItem("exposed_copper_chain",ModBlocks.EXPOSED_COPPER_CHAIN_BLOCK, new Item.Properties());
+    public static final DeferredItem<BlockItem> WEATHERED_COPPER_CHAIN = ITEMS.registerSimpleBlockItem("weathered_copper_chain",ModBlocks.WEATHERED_COPPER_CHAIN_BLOCK, new Item.Properties());
+    public static final DeferredItem<BlockItem> OXIDIZED_COPPER_CHAIN = ITEMS.registerSimpleBlockItem("oxidized_copper_chain",ModBlocks.OXIDIZED_COPPER_CHAIN_BLOCK, new Item.Properties());
+
+    public static final DeferredItem<BlockItem> COPPER_LANTERN = ITEMS.registerSimpleBlockItem("copper_lantern",ModBlocks.COPPER_LANTERN_BLOCK, new Item.Properties());
+    public static final DeferredItem<BlockItem> EXPOSED_COPPER_LANTERN = ITEMS.registerSimpleBlockItem("exposed_copper_lantern",ModBlocks.EXPOSED_COPPER_LANTERN_BLOCK, new Item.Properties());
+    public static final DeferredItem<BlockItem> WEATHERED_COPPER_LANTERN = ITEMS.registerSimpleBlockItem("weathered_copper_lantern",ModBlocks.WEATHERED_COPPER_LANTERN_BLOCK, new Item.Properties());
+    public static final DeferredItem<BlockItem> OXIDIZED_COPPER_LANTERN = ITEMS.registerSimpleBlockItem("oxidized_copper_lantern",ModBlocks.OXIDIZED_COPPER_LANTERN_BLOCK, new Item.Properties());
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
