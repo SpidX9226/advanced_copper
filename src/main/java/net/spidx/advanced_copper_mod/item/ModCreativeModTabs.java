@@ -51,21 +51,39 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.OXIDIZED_COPPER_HOE.get());
 
                         output.accept(ModItems.PRODUCTION_FURNACE.get());
+                        output.accept(ModItems.EXPOSED_PRODUCTION_FURNACE.get());
+                        output.accept(ModItems.WEATHERED_PRODUCTION_FURNACE.get());
+                        output.accept(ModItems.OXIDIZED_PRODUCTION_FURNACE.get());
 
                         output.accept(ModItems.COPPER_BARS.get());
                         output.accept(ModItems.EXPOSED_COPPER_BARS.get());
                         output.accept(ModItems.WEATHERED_COPPER_BARS.get());
                         output.accept(ModItems.OXIDIZED_COPPER_BARS.get());
 
+                        output.accept(ModItems.WAXED_COPPER_BARS.get());
+                        output.accept(ModItems.WAXED_EXPOSED_COPPER_BARS.get());
+                        output.accept(ModItems.WAXED_WEATHERED_COPPER_BARS.get());
+                        output.accept(ModItems.WAXED_OXIDIZED_COPPER_BARS.get());
+
                         output.accept(ModItems.COPPER_CHAIN.get());
                         output.accept(ModItems.EXPOSED_COPPER_CHAIN.get());
                         output.accept(ModItems.WEATHERED_COPPER_CHAIN.get());
                         output.accept(ModItems.OXIDIZED_COPPER_CHAIN.get());
 
+                        output.accept(ModItems.WAXED_COPPER_CHAIN.get());
+                        output.accept(ModItems.WAXED_EXPOSED_COPPER_CHAIN.get());
+                        output.accept(ModItems.WAXED_WEATHERED_COPPER_CHAIN.get());
+                        output.accept(ModItems.WAXED_OXIDIZED_COPPER_CHAIN.get());
+
                         output.accept(ModItems.COPPER_LANTERN.get());
                         output.accept(ModItems.EXPOSED_COPPER_LANTERN.get());
                         output.accept(ModItems.WEATHERED_COPPER_LANTERN.get());
                         output.accept(ModItems.OXIDIZED_COPPER_LANTERN.get());
+
+                        output.accept(ModItems.WAXED_COPPER_LANTERN.get());
+                        output.accept(ModItems.WAXED_EXPOSED_COPPER_LANTERN.get());
+                        output.accept(ModItems.WAXED_WEATHERED_COPPER_LANTERN.get());
+                        output.accept(ModItems.WAXED_OXIDIZED_COPPER_LANTERN.get());
                     })
                     .build());
 

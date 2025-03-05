@@ -28,7 +28,7 @@ public class ProductionFurnaceBlock extends AbstractFurnaceBlock {
     public static final MapCodec<ProductionFurnaceBlock> CODEC = simpleCodec(ProductionFurnaceBlock::new);
 
     @Override
-    public MapCodec<ProductionFurnaceBlock> codec() {
+    public MapCodec<? extends ProductionFurnaceBlock> codec() {
         return CODEC;
     }
 

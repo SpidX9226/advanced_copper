@@ -2,8 +2,8 @@
     "ambientocclusion": false,
     "render_type": "minecraft:cutout",
     "textures": {
-        "particle": "advanced_copper:block/copper_bars",
-        "bars": "advanced_copper:block/copper_bars"
+        "particle": "advanced_copper:block/weathered_copper_bars",
+        "bars": "advanced_copper:block/weathered_copper_bars"
     },
     "elements": [
         {   "from": [ 8, 0, 7 ],

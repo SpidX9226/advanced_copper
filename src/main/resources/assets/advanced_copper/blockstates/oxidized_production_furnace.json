@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,lit=false": {
+      "model": "advanced_copper:block/oxidized_production_furnace",
+      "y": 90
+    },
+    "facing=east,lit=true": {
+      "model": "advanced_copper:block/oxidized_production_furnace_on",
+      "y": 90
+    },
+    "facing=north,lit=false": {
+      "model": "advanced_copper:block/oxidized_production_furnace"
+    },
+    "facing=north,lit=true": {
+      "model": "advanced_copper:block/oxidized_production_furnace_on"
+    },
+    "facing=south,lit=false": {
+      "model": "advanced_copper:block/oxidized_production_furnace",
+      "y": 180
+    },
+    "facing=south,lit=true": {
+      "model": "advanced_copper:block/oxidized_production_furnace_on",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "advanced_copper:block/oxidized_production_furnace",
+      "y": 270
+    },
+    "facing=west,lit=true": {
+      "model": "advanced_copper:block/oxidized_production_furnace_on",
+      "y": 270
+    }
+  }
+}
