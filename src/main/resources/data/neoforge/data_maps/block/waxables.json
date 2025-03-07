@@ -1,7 +1,42 @@
 {
   "values": {
-    "advanced_copper:copper_bars_block": {
-      "waxed": "advanced_copper:production_furnace"
+    "advanced_copper:copper_bars": {
+      "waxed": "advanced_copper:waxed_copper_bars"
+    },
+    "advanced_copper:exposed_copper_bars": {
+      "waxed": "advanced_copper:waxed_exposed_copper_bars"
+    },
+    "advanced_copper:weathered_copper_bars": {
+      "waxed": "advanced_copper:waxed_weathered_copper_bars"
+    },
+    "advanced_copper:oxidized_copper_bars": {
+      "waxed": "advanced_copper:waxed_oxidized_copper_bars"
+    },
+
+    "advanced_copper:copper_chain": {
+      "waxed": "advanced_copper:waxed_copper_chain"
+    },
+    "advanced_copper:exposed_copper_chain": {
+      "waxed": "advanced_copper:waxed_exposed_copper_chain"
+    },
+    "advanced_copper:weathered_copper_chain": {
+      "waxed": "advanced_copper:waxed_weathered_copper_chain"
+    },
+    "advanced_copper:oxidized_copper_chain": {
+      "waxed": "advanced_copper:waxed_oxidized_copper_chain"
+    },
+
+    "advanced_copper:copper_lantern": {
+      "waxed": "advanced_copper:waxed_copper_lantern"
+    },
+    "advanced_copper:exposed_copper_lantern": {
+      "waxed": "advanced_copper:waxed_exposed_copper_lantern"
+    },
+    "advanced_copper:weathered_copper_lantern": {
+      "waxed": "advanced_copper:waxed_weathered_copper_lantern"
+    },
+    "advanced_copper:oxidized_copper_lantern": {
+      "waxed": "advanced_copper:waxed_oxidized_copper_lantern"
     }
   }
 }
