@@ -24,5 +24,35 @@
   "item.advanced_copper.oxidized_copper_axe": "Oxidized Copper Axe",
   "item.advanced_copper.oxidized_copper_shovel": "Oxidized Copper Shovel",
   "item.advanced_copper.oxidized_copper_hoe": "Oxidized Copper Hoe",
-  "block.advanced_copper.production_furnace": "Production Furnace"
+  "block.advanced_copper.production_furnace": "Production Furnace",
+  "block.advanced_copper.exposed_production_furnace": "Exposed Production Furnace",
+  "block.advanced_copper.weathered_production_furnace": "Weathered Production Furnace",
+  "block.advanced_copper.oxidized_production_furnace": "Oxidized Production Furnace",
+
+  "block.advanced_copper.copper_bars": "Copper Bars",
+  "block.advanced_copper.waxed_copper_bars": "Waxed Copper Bars",
+  "block.advanced_copper.exposed_copper_bars": "Exposed Copper Bars",
+  "block.advanced_copper.waxed_exposed_copper_bars": "Waxed Exposed Copper Bars",
+  "block.advanced_copper.weathered_copper_bars": "Weathered Copper Bars",
+  "block.advanced_copper.waxed_weathered_copper_bars": "Waxed Weathered Copper Bars",
+  "block.advanced_copper.oxidized_copper_bars": "Oxidized Copper Bars",
+  "block.advanced_copper.waxed_oxidized_copper_bars": "Waxed Oxidized Copper Bars",
+
+  "block.advanced_copper.copper_chain": "Copper Chain",
+  "block.advanced_copper.waxed_copper_chain": "Waxed Copper Chain",
+  "block.advanced_copper.exposed_copper_chain": "Exposed Copper Chain",
+  "block.advanced_copper.waxed_exposed_copper_chain": "Waxed Exposed Copper Chain",
+  "block.advanced_copper.weathered_copper_chain": "Weathered Copper Chain",
+  "block.advanced_copper.waxed_weathered_copper_chain": "Waxed Weathered Copper Chain",
+  "block.advanced_copper.oxidized_copper_chain": "Oxidized Copper Chain",
+  "block.advanced_copper.waxed_oxidized_copper_chain": "Waxed Oxidized Copper Chain",
+
+  "block.advanced_copper.copper_lantern": "Copper Lantern",
+  "block.advanced_copper.waxed_copper_lantern": "Waxed Copper Lantern",
+  "block.advanced_copper.exposed_copper_lantern": "Exposed Copper Lantern",
+  "block.advanced_copper.waxed_exposed_copper_lantern": "Waxed Exposed Copper Lantern",
+  "block.advanced_copper.weathered_copper_lantern": "Weathered Copper Lantern",
+  "block.advanced_copper.waxed_weathered_copper_lantern": "Waxed Weathered Copper Lantern",
+  "block.advanced_copper.oxidized_copper_lantern": "Oxidized Copper Lantern",
+  "block.advanced_copper.waxed_oxidized_copper_lantern": "Waxed Oxidized Copper Lantern"
 }
