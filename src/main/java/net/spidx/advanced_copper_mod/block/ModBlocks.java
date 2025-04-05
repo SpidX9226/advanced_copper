@@ -104,44 +104,44 @@ public class ModBlocks extends BlockEntityRenderers {
 
     public static final DeferredBlock<WeatheredCopperLanternBlock> WAXED_COPPER_LANTERN_BLOCK = BLOCKS.register(
             "waxed_copper_lantern", registryName -> new WeatheredCopperLanternBlock(WeatheringCopper.WeatherState.UNAFFECTED, BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN)
-                    .lightLevel(light -> 5)
+                    .lightLevel(light -> 12)
                     .setId(ResourceKey.create(Registries.BLOCK, registryName)))
     );
     public static final DeferredBlock<WeatheredCopperLanternBlock> WAXED_EXPOSED_COPPER_LANTERN_BLOCK = BLOCKS.register(
             "waxed_exposed_copper_lantern", registryName -> new WeatheredCopperLanternBlock(WeatheringCopper.WeatherState.UNAFFECTED, BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN)
-                    .lightLevel(light -> 5)
+                    .lightLevel(light -> 10)
                     .setId(ResourceKey.create(Registries.BLOCK, registryName)))
     );
     public static final DeferredBlock<WeatheredCopperLanternBlock> WAXED_WEATHERED_COPPER_LANTERN_BLOCK = BLOCKS.register(
             "waxed_weathered_copper_lantern", registryName -> new WeatheredCopperLanternBlock(WeatheringCopper.WeatherState.UNAFFECTED, BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN)
-                    .lightLevel(light -> 5)
+                    .lightLevel(light -> 8)
                     .setId(ResourceKey.create(Registries.BLOCK, registryName)))
     );
     public static final DeferredBlock<WeatheredCopperLanternBlock> WAXED_OXIDIZED_COPPER_LANTERN_BLOCK = BLOCKS.register(
             "waxed_oxidized_copper_lantern", registryName -> new WeatheredCopperLanternBlock(WeatheringCopper.WeatherState.UNAFFECTED, BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN)
-                    .lightLevel(light -> 5)
+                    .lightLevel(light -> 6)
                     .setId(ResourceKey.create(Registries.BLOCK, registryName)))
     );
 
 
     public static final DeferredBlock<WeatheredCopperLanternBlock> COPPER_LANTERN_BLOCK = BLOCKS.register(
             "copper_lantern", registryName -> new WeatheredCopperLanternBlock(WeatheringCopper.WeatherState.UNAFFECTED, BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN)
-                    .lightLevel(light -> 5)
+                    .lightLevel(light -> 12)
                     .setId(ResourceKey.create(Registries.BLOCK, registryName)))
     );
     public static final DeferredBlock<WeatheredCopperLanternBlock> EXPOSED_COPPER_LANTERN_BLOCK = BLOCKS.register(
             "exposed_copper_lantern", registryName -> new WeatheredCopperLanternBlock(WeatheringCopper.WeatherState.EXPOSED, BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN)
-                    .lightLevel(light -> 5)
+                    .lightLevel(light -> 10)
                     .setId(ResourceKey.create(Registries.BLOCK, registryName)))
     );
     public static final DeferredBlock<WeatheredCopperLanternBlock> WEATHERED_COPPER_LANTERN_BLOCK = BLOCKS.register(
             "weathered_copper_lantern", registryName -> new WeatheredCopperLanternBlock(WeatheringCopper.WeatherState.WEATHERED, BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN)
-                    .lightLevel(light -> 5)
+                    .lightLevel(light -> 8)
                     .setId(ResourceKey.create(Registries.BLOCK, registryName)))
     );
     public static final DeferredBlock<WeatheredCopperLanternBlock> OXIDIZED_COPPER_LANTERN_BLOCK = BLOCKS.register(
             "oxidized_copper_lantern", registryName -> new WeatheredCopperLanternBlock(WeatheringCopper.WeatherState.OXIDIZED, BlockBehaviour.Properties.ofFullCopy(Blocks.CHAIN)
-                    .lightLevel(light -> 5)
+                    .lightLevel(light -> 6)
                     .setId(ResourceKey.create(Registries.BLOCK, registryName)))
     );
 
