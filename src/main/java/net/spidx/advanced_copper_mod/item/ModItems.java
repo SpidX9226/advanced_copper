@@ -1,9 +1,9 @@
 package net.spidx.advanced_copper_mod.item;
 
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -11,7 +11,9 @@ import net.spidx.advanced_copper_mod.AdvancedCopperMod;
 import net.spidx.advanced_copper_mod.block.ModBlocks;
 import net.spidx.advanced_copper_mod.item.custom.ModToolMaterials;
 
-public class ModItems {
+import javax.xml.crypto.Data;
+
+public class ModItems extends Items {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(AdvancedCopperMod.MOD_ID);
 
     // INGOTS
@@ -21,18 +23,15 @@ public class ModItems {
 
     // TOOLS:
     // COPPER
-    public static final DeferredItem<Item> COPPER_SWORD = ITEMS.registerItem("copper_sword", properties -> new SwordItem(
-            ModToolMaterials.COPPER_MATERIAL,
-            3.0f,
-            -2.4f,
-            properties
-    ));
-    public static final DeferredItem<Item> COPPER_PICKAXE = ITEMS.registerItem("copper_pickaxe", properties -> new PickaxeItem(
-            ModToolMaterials.COPPER_MATERIAL,
+    public static final DeferredItem<Item> COPPER_SWORD = ITEMS.registerItem("copper_sword", (properties
+            -> new Item(new Item.Properties()
+                    .sword(ModToolMaterials.COPPER_MATERIAL, 3.0f, -2.4f).setId(ResourceKey.create(Registries.ITEM, properties.effectiveModel()))
+    )));
+    public static final DeferredItem<Item> COPPER_PICKAXE = ITEMS.registerItem("copper_pickaxe", properties
+            -> new Item(new Item.Properties().pickaxe(ModToolMaterials.COPPER_MATERIAL,
             1.0f,
-            -2.8f,
-            properties
-    ));
+            -2.8f).setId(ResourceKey.create(Registries.ITEM, properties.effectiveModel())
+    )));
     public static final DeferredItem<Item> COPPER_AXE = ITEMS.registerItem("copper_axe", properties -> new AxeItem(
             ModToolMaterials.COPPER_MATERIAL,
             6.5f,
@@ -52,18 +51,18 @@ public class ModItems {
             properties
     ));
     // EXPOSED COPPER
-    public static final DeferredItem<Item> EXPOSED_COPPER_SWORD = ITEMS.registerItem("exposed_copper_sword", properties -> new SwordItem(
+    public static final DeferredItem<Item> EXPOSED_COPPER_SWORD = ITEMS.registerItem("exposed_copper_sword", properties -> new Item(new Item.Properties().sword(
             ModToolMaterials.EXPOSED_COPPER_MATERIAL,
             3.0f,
-            -2.4f,
-            properties
-    ));
-    public static final DeferredItem<Item> EXPOSED_COPPER_PICKAXE = ITEMS.registerItem("exposed_copper_pickaxe", properties -> new PickaxeItem(
+            -2.4f)
+            .setId(ResourceKey.create(Registries.ITEM, properties.effectiveModel())
+    )));
+    public static final DeferredItem<Item> EXPOSED_COPPER_PICKAXE = ITEMS.registerItem("exposed_copper_pickaxe", properties -> new Item(new Item.Properties().pickaxe(
             ModToolMaterials.EXPOSED_COPPER_MATERIAL,
             1.0f,
-            -2.8f,
-            properties
-    ));
+            -2.8f
+    ).setId(ResourceKey.create(Registries.ITEM, properties.effectiveModel())
+    )));
     public static final DeferredItem<Item> EXPOSED_COPPER_AXE = ITEMS.registerItem("exposed_copper_axe", properties -> new AxeItem(
             ModToolMaterials.EXPOSED_COPPER_MATERIAL,
             6.5f,
@@ -83,18 +82,17 @@ public class ModItems {
             properties
     ));
     // WEATHERED COPPER
-    public static final DeferredItem<Item> WEATHERED_COPPER_SWORD = ITEMS.registerItem("weathered_copper_sword", properties -> new SwordItem(
+    public static final DeferredItem<Item> WEATHERED_COPPER_SWORD = ITEMS.registerItem("weathered_copper_sword", properties -> new Item(new Item.Properties().sword(
                 ModToolMaterials.WEATHERED_COPPER_MATERIAL,
                 3.0f,
-                -2.4f,
-                properties
-        ));
-    public static final DeferredItem<Item> WEATHERED_COPPER_PICKAXE = ITEMS.registerItem("weathered_copper_pickaxe", properties -> new PickaxeItem(
+                -2.4f
+    ).setId(ResourceKey.create(Registries.ITEM, properties.effectiveModel())
+    )));
+    public static final DeferredItem<Item> WEATHERED_COPPER_PICKAXE = ITEMS.registerItem("weathered_copper_pickaxe", properties -> new Item(new Item.Properties().pickaxe(
             ModToolMaterials.WEATHERED_COPPER_MATERIAL,
             1.0f,
-            -2.8f,
-            properties
-    ));
+            -2.8f).setId(ResourceKey.create(Registries.ITEM, properties.effectiveModel())
+    )));
     public static final DeferredItem<Item> WEATHERED_COPPER_AXE = ITEMS.registerItem("weathered_copper_axe", properties -> new AxeItem(
             ModToolMaterials.WEATHERED_COPPER_MATERIAL,
             6.5f,
@@ -114,18 +112,16 @@ public class ModItems {
             properties
     ));
     // OXIDIZED COPPER
-    public static final DeferredItem<Item> OXIDIZED_COPPER_SWORD = ITEMS.registerItem("oxidized_copper_sword", properties -> new SwordItem(
+    public static final DeferredItem<Item> OXIDIZED_COPPER_SWORD = ITEMS.registerItem("oxidized_copper_sword", properties -> new Item( new Item.Properties().sword(
             ModToolMaterials.OXIDIZED_COPPER_MATERIAL,
             3.0f,
-            -2.4f,
-            properties
-    ));
-    public static final DeferredItem<Item> OXIDIZED_COPPER_PICKAXE = ITEMS.registerItem("oxidized_copper_pickaxe", properties -> new PickaxeItem(
+            -2.4f).setId(ResourceKey.create(Registries.ITEM, properties.effectiveModel())
+    )));
+    public static final DeferredItem<Item> OXIDIZED_COPPER_PICKAXE = ITEMS.registerItem("oxidized_copper_pickaxe", properties -> new Item( new Item.Properties().pickaxe(
             ModToolMaterials.OXIDIZED_COPPER_MATERIAL,
             1.0f,
-            -2.8f,
-            properties
-    ));
+            -2.8f).setId(ResourceKey.create(Registries.ITEM, properties.effectiveModel())
+    )));
     public static final DeferredItem<Item> OXIDIZED_COPPER_AXE = ITEMS.registerItem("oxidized_copper_axe", properties -> new AxeItem(
             ModToolMaterials.OXIDIZED_COPPER_MATERIAL,
             6.5f,
