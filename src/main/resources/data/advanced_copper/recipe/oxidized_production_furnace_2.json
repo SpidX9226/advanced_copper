@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:oxidized_cut_copper",
+    "I": "minecraft:cobbled_deepslate",
+    "X": "minecraft:furnace"
+  },
+  "pattern": [
+    "III",
+    "IXI",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "advanced_copper:oxidized_production_furnace"
+  }
+}
