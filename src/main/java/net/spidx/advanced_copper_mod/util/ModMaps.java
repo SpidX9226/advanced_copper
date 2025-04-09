@@ -64,6 +64,6 @@ public class ModMaps {
     }
 
     public static Item getOxidized(Item item) {
-        return map.get(item);
+        return OXIDATION_MAP.get(item);
     }
 }
