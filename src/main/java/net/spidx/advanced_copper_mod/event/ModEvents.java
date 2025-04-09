@@ -12,6 +12,9 @@ import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.spidx.advanced_copper_mod.block.ModBlockEntities;
 import net.spidx.advanced_copper_mod.util.ModMaps;
 
+import static net.spidx.advanced_copper_mod.util.ModMaps.OXIDATION_MAP;
+import static net.spidx.advanced_copper_mod.util.ModMaps.getOxidized;
+
 @EventBusSubscriber(modid = "advanced_copper")
 public class ModEvents {
     @SubscribeEvent
@@ -19,7 +22,6 @@ public class ModEvents {
         Player player = event.getEntity();
         Level level = player.level();
         Inventory inventory = player.getInventory();
-        ModMaps map = new ModMaps();
 
         if (!level.isClientSide()) {
             for (int i = 0; i < inventory.getContainerSize(); ++i) {
@@ -28,8 +30,10 @@ public class ModEvents {
                 float chance = player.getRandom().nextFloat();
                 int currentDamage = inventory.getItem(i).getDamageValue();;
                 if (chance < 0.0004f) {
-                    inventory.setItem(i, (new ItemStack(map.getOxidized(itemStack.getItem()), count)));
-                    inventory.getItem(i).setDamageValue(currentDamage);
+                    if (OXIDATION_MAP.containsKey(itemStack.getItem())) {
+                        inventory.setItem(i, (new ItemStack(getOxidized(itemStack.getItem()), count)));
+                        inventory.getItem(i).setDamageValue(currentDamage);
+                    }
                 }
             }
         }
