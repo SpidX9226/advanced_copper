@@ -1,5 +1,15 @@
 {
   "creative_tab.advanced_copper.advanced_copper_tab": "Copper++",
+
+  "block.advanced_copper.copper_bars": "Copper Bars",
+  "block.advanced_copper.waxed_copper_bars": "Waxed Copper Bars",
+  "block.advanced_copper.exposed_copper_bars": "Exposed Copper Bars",
+  "block.advanced_copper.waxed_exposed_copper_bars": "Waxed Exposed Copper Bars",
+  "block.advanced_copper.weathered_copper_bars": "Weathered Copper Bars",
+  "block.advanced_copper.waxed_weathered_copper_bars": "Waxed Weathered Copper Bars",
+  "block.advanced_copper.oxidized_copper_bars": "Oxidized Copper Bars",
+  "block.advanced_copper.waxed_oxidized_copper_bars": "Waxed Oxidized Copper Bars",
+
   "item.advanced_copper.exposed_copper_ingot": "Exposed Copper Ingot",
   "item.advanced_copper.weathered_copper_ingot": "Weathered Copper Ingot",
   "item.advanced_copper.oxidized_copper_ingot": "Oxidized Copper Ingot",
@@ -27,13 +37,4 @@
   "block.advanced_copper.exposed_production_furnace": "Exposed Production Furnace",
   "block.advanced_copper.weathered_production_furnace": "Weathered Production Furnace",
   "block.advanced_copper.oxidized_production_furnace": "Oxidized Production Furnace",
-
-  "block.advanced_copper.copper_bars": "Copper Bars",
-  "block.advanced_copper.waxed_copper_bars": "Waxed Copper Bars",
-  "block.advanced_copper.exposed_copper_bars": "Exposed Copper Bars",
-  "block.advanced_copper.waxed_exposed_copper_bars": "Waxed Exposed Copper Bars",
-  "block.advanced_copper.weathered_copper_bars": "Weathered Copper Bars",
-  "block.advanced_copper.waxed_weathered_copper_bars": "Waxed Weathered Copper Bars",
-  "block.advanced_copper.oxidized_copper_bars": "Oxidized Copper Bars",
-  "block.advanced_copper.waxed_oxidized_copper_bars": "Waxed Oxidized Copper Bars"
 }
