@@ -1,11 +1,6 @@
 {
   "creative_tab.advanced_copper.advanced_copper_tab": "Copper++",
 
-  "block.advanced_copper.production_furnace": "Производственная печь",
-  "block.advanced_copper.exposed_production_furnace": "Потемневшая производственная печь",
-  "block.advanced_copper.weathered_production_furnace": "Состаренная производственная печь",
-  "block.advanced_copper.oxidized_production_furnace": "Окисленная производственная печь",
-
   "block.advanced_copper.copper_bars": "Медные прутья",
   "block.advanced_copper.waxed_copper_bars": "Вощёные медные прутья",
   "block.advanced_copper.exposed_copper_bars": "Потемневшие медные прутья",
@@ -38,4 +33,9 @@
   "item.advanced_copper.oxidized_copper_axe": "Окисленный медный топор",
   "item.advanced_copper.oxidized_copper_shovel": "Окисленная медная лопата",
   "item.advanced_copper.oxidized_copper_hoe": "Окисленная медная мотыга",
+
+  "block.advanced_copper.production_furnace": "Производственная печь",
+  "block.advanced_copper.exposed_production_furnace": "Потемневшая производственная печь",
+  "block.advanced_copper.weathered_production_furnace": "Состаренная производственная печь",
+  "block.advanced_copper.oxidized_production_furnace": "Окисленная производственная печь"
 }
