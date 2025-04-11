@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "advanced_copper:production-alpha-0",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1694767080,
+    "spacing": 12,
+    "separation": 4
+  }
+}
