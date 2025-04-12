@@ -13,7 +13,7 @@ import net.spidx.advanced_copper_mod.item.custom.ModToolMaterials;
 
 import javax.xml.crypto.Data;
 
-public class ModItems extends Items {
+public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(AdvancedCopperMod.MOD_ID);
 
     // INGOTS
